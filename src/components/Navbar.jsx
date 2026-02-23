@@ -55,7 +55,7 @@ function Navbar() {
               _certificados
             </NavLink>
             <a 
-              href="/CV java backend Héctor Zacapala Garnica.pdf" 
+              href="/CV HECTOR ZACAPALA GARNICA JAVA BACKEND.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
               className="block md:inline-block px-4 py-2 text-sm font-mono font-bold text-[#1e1e1e] bg-green-500 rounded hover:bg-green-400 transition-colors text-center mt-4 md:mt-0 md:ml-4"

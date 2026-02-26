@@ -11,7 +11,10 @@ function Experiencia() {
           La ventaja de entender el negocio operativo antes de escribir la primera línea de código.
         </p>
       </div>
+
       <div className="relative border-l-2 border-gray-700 ml-3 md:ml-6 space-y-12">
+        
+        {/* --- SECCIÓN IT / SISTEMAS --- */}
         <div className="relative pl-8 md:pl-12">
           {/* Punto en la línea */}
           <div className="absolute -left-[11px] top-1 w-5 h-5 bg-green-500 rounded-full border-4 border-[#1e1e1e]"></div>
@@ -21,15 +24,19 @@ function Experiencia() {
               Ingeniero en Sistemas Computacionales
             </h2>
             <span className="text-green-300 font-bold font-mono text-sm bg-green-900/40 px-3 py-1 rounded mt-2 sm:mt-0 w-max border border-green-800">
-              Pasante
+              Egresado
             </span>
           </div>
           <h3 className="text-xl text-green-400 mb-4 font-mono font-bold">&gt; Desarrollador Java Backend</h3>
           <p className="text-gray-200 text-lg leading-relaxed mb-4">
-            Especialización en el ecosistema <strong className="text-white font-bold bg-gray-800 px-1 rounded">Spring (Spring Boot, Data JPA, Security)</strong> y arquitectura de microservicios. Capacitado para diseñar APIs RESTful, gestionar bases de datos relacionales (MySQL) y crear soluciones de software eficientes.
+            Especialización en el ecosistema <strong className="text-white font-bold bg-gray-800 px-1 rounded">Spring (Spring Boot, Data JPA, Security)</strong> para el diseño de APIs RESTful robustas y gestión de bases de datos relacionales (MySQL). 
+          </p>
+          <p className="text-gray-200 text-lg leading-relaxed mb-4">
+            Adicionalmente, cuento con bases sólidas en el desarrollo de interfaces dinámicas con <strong className="text-white font-bold bg-gray-800 px-1 rounded">React y Vite</strong>. Mi enfoque principal es traducir requerimientos complejos del negocio en soluciones de software eficientes, escalables y orientadas a la resolución de problemas.
           </p>
         </div>
 
+        {/* --- SECCIÓN LOGÍSTICA --- */}
         <div className="relative pl-8 md:pl-12">
           <div className="absolute -left-[11px] top-1 w-5 h-5 bg-blue-500 rounded-full border-4 border-[#1e1e1e]"></div>
           
@@ -38,7 +45,7 @@ function Experiencia() {
               Operaciones Logísticas y CEDIS
             </h2>
             <span className="text-blue-300 font-bold font-mono text-sm bg-blue-900/40 px-3 py-1 rounded mt-2 sm:mt-0 w-max border border-blue-800">
-              13 Años de Experiencia
+              Experiencia Sólida
             </span>
           </div>
           <h3 className="text-xl text-blue-400 mb-4 font-mono font-bold">&gt; Coordinación, Administración y Auditoría</h3>
@@ -53,7 +60,6 @@ function Experiencia() {
         </div>
 
       </div>
-
     </div>
   );
 }

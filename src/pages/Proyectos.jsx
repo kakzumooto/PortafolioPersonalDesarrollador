@@ -16,7 +16,7 @@ function Proyectos() {
       arquitectura: "Arquitectura cliente-servidor consumiendo endpoints RESTful protegidos. *Nota: Proyecto actualmente offline por finalización de contrato comercial.*",
       stack: ["☕ Java", "🍃 Spring Boot", "🐬 MySQL", "⚛️ React", "🎨 CSS"],
       github: "https://github.com/kakzumooto/CatalogoAutoPartes",
-      demo: "https://performanceday.com.mx/" 
+      demo: "#" 
     },
     {
       id: 3,
